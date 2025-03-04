@@ -4,7 +4,7 @@ import './App.css'
 // import Counter from './components/Counter'
 // import SocialMedia from './components/SocialMedia'
 // import TodoList from './components/TodoList'
-import CounterFC from './components/Counter2'
+import CounterFC from './components/CounterFC'
 
 function App() {
   return (
@@ -45,8 +45,4 @@ export default App
         - Functional components are more readable and maintainable
       - Functional components have slightly better performance
       - After the introduction of "hooks", functional components could also maintain states, which added to the advantages of functional components
-
-    # Part 2:
-      - States with Functional Components
-      - Asynchronous nature of setState method
 */

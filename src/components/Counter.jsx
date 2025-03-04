@@ -40,11 +40,21 @@ class Counter extends Component {
 export default Counter
 
 
+
+
+
+
+
+
+
+
+
+
 /*
   # State
     - Component's own data (A data which belongs to the component)
     - Whenever the state of the component changes, the component automatically re-renders
-      - State updates should be done using setState() only
+      - State updates should only be done using setState() method
       - If state updates are done directly, this is not detected by React and hence the component won't re-render automatically
     - Syntax:
       - Intialize (Inside the constructor)
@@ -53,5 +63,11 @@ export default Counter
         }
       - Update
         - this.setState({ count: 1 })
+    - Additional notes:
+      - In older React versions (<16.8), state could only be used in class components
+      - In React 16.8, Hooks (special functions) were introduced, states could not be created in functional components as well
 
+
+  # Future
+    - Hooks
 */

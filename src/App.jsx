@@ -3,12 +3,14 @@ import './App.css'
 // import DomesticAnimals from './components/DomesticAnimals'
 // import Counter from './components/Counter'
 // import SocialMedia from './components/SocialMedia'
-import TodoList from './components/TodoList'
+// import TodoList from './components/TodoList'
+import CounterFC from './components/Counter2'
 
 function App() {
   return (
     <>
-      <TodoList />
+      <CounterFC />
+      {/* <TodoList /> */}
       {/* <SocialMedia /> */}
       {/* <Counter /> */}
       {/* <h1>Animals</h1>
@@ -31,8 +33,8 @@ export default App
     - Types of components
       - Class components: 
         - Component is created using a class which return JSX
-        - Some legacy applications still use class components, new application who prefer classes over functions use this
-        - In the previous versions of React, "states" could only be created in a class component
+        - Some legacy applications still use class components, new developers who prefer classes over functions use class components
+        - In the older versions of React, "states" could only be created in a class component
       - Functional components: 
         - Component is created using a function which return JSX
         - In the latest versions of React, states can also be created in functional components (using Hooks)

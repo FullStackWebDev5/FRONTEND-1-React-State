@@ -4,12 +4,15 @@ import './App.css'
 // import Counter from './components/Counter'
 // import SocialMedia from './components/SocialMedia'
 // import TodoList from './components/TodoList'
-import CounterFC from './components/CounterFC'
+// import CounterFC from './components/CounterFC'
+import CounterFC2 from './components/CounterFC2'
 
 function App() {
   return (
     <>
-      <CounterFC />
+      <CounterFC2 />
+      {/* <CounterFC /> */}
+      
       {/* <TodoList /> */}
       {/* <SocialMedia /> */}
       {/* <Counter /> */}

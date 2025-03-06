@@ -64,6 +64,7 @@ export default Counter
 /*
   # State
     - Component's own data (A data which belongs to the component)
+    - States are mutable (can be changed)
     - Whenever the state of the component changes, the component automatically re-renders
       - State updates should only be done using setState() method
       - If state updates are done directly, this is not detected by React and hence the component won't re-render automatically

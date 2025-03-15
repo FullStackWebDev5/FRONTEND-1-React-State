@@ -41,6 +41,6 @@ export default Parent
       - Solution: Child component's state needs to be "lifted up" to the parent component that needs access to it, and then passed as prop to the same child component
         - State handler can also be passed as a prop, only if the child component wants to update this state
       2. Whenever child component's state needs to be accessed by sibling component
-      - Solution: Child component's state needs to be "lifted up" to the common parent component and then passed as prop to the same child component and the sibling child component that needs access to it
+      - Solution: Child component's state needs to be "lifted up" to the "common parent" component and then passed as prop to the same child component and the sibling child component that needs access to it
         - State handler can also be passed as a prop, only if the child components wants to update this state
 */

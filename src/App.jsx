@@ -7,14 +7,14 @@ import './App.css'
 // import CounterFC from './components/CounterFC'
 // import CounterFC2 from './components/CounterFC2'
 
-import Parent from './components/Parent'
+// import Parent from './components/Parent'
+import PropsDrilling from './components/PropsDrilling'
 
 function App() {
   return (
     <>
-      <Parent />
-
-
+      {/* <Parent /> */}
+      <PropsDrilling />
 
       {/* <CounterFC2 /> */}
       {/* <CounterFC /> */}

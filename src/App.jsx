@@ -5,12 +5,18 @@ import './App.css'
 // import SocialMedia from './components/SocialMedia'
 // import TodoList from './components/TodoList'
 // import CounterFC from './components/CounterFC'
-import CounterFC2 from './components/CounterFC2'
+// import CounterFC2 from './components/CounterFC2'
+
+import Parent from './components/Parent'
 
 function App() {
   return (
     <>
-      <CounterFC2 />
+      <Parent />
+
+
+
+      {/* <CounterFC2 /> */}
       {/* <CounterFC /> */}
       
       {/* <TodoList /> */}

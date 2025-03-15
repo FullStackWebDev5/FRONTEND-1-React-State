@@ -8,13 +8,15 @@ import './App.css'
 // import CounterFC2 from './components/CounterFC2'
 
 // import Parent from './components/Parent'
-import PropsDrilling from './components/PropsDrilling'
+// import PropsDrilling from './components/PropsDrilling'
+import Parent from './components/Presentational'
 
 function App() {
   return (
     <>
       {/* <Parent /> */}
-      <PropsDrilling />
+      {/* <PropsDrilling /> */}
+      <Parent />
 
       {/* <CounterFC2 /> */}
       {/* <CounterFC /> */}
